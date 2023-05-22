@@ -32,16 +32,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="4dp"
+        android:paddingTop="2dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:paddingBottom="4dp"
+        android:paddingBottom="2dp"
         tools:ignore="UselessParent">
 
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:gravity="center"
             android:textSize="@dimen/smallTextSize"
             android:textColor="@color/white"/>
